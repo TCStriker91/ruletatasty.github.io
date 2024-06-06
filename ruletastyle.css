@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f07b2e;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left-section, .right-section {
+    padding: 20px;
+}
+
+.left-section {
+    background-color: #d7e8e9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.right-section {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #100f0f;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+input {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+    font-size: 1em;
+}
+
+button {
+    background-color: #ff677d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #ff3b58;
+}
+
+canvas {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+.mensaje {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #ff677d;
+}
+
+.aviso-premio {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-aviso {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #ff677d;
+    font-size: 2em;
+}
+
+.aviso-premio button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff677d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.aviso-premio button:hover {
+    background-color: #ff3b58;
+}

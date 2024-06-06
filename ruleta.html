@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruleta de Premios</title>
+    <link rel="stylesheet" href="ruletastyle.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.freepik.com/512/419/419465.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h2>Premios disponibles</h2>
+            <ul>
+                <li>Helado</li>
+                <li>Gaseosa</li>
+                <li>Cuarto de Pollo</li>
+                <li>Octavo de Pollo</li>
+            </ul>
+            <input type="text" id="codigo" placeholder="Introduce tu código">
+            <button onclick="validarCodigo()">Activar Ruleta</button>
+        </div>
+        <div class="right-section">
+            <canvas id="ruleta" width="400" height="400"></canvas>
+            <div id="mensaje" class="mensaje"></div>
+        </div>
+    </div>
+    <div id="aviso-premio" class="aviso-premio" style="display: none;">
+        <div id="contenido-aviso" class="contenido-aviso"></div>
+        <button onclick="cerrarAviso()">Cerrar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
